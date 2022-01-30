@@ -9,10 +9,10 @@ function getDatetimeNow() {
 
 function getConnection() {
 
-  $servername = "localhost";
-  $username = "root";
-  $password = "root?000627?";
-  $dbname = "portfolio_x79";
+  $servername = "*******";
+  $username = "*******";
+  $password = "*******";
+  $dbname = "*******";
   
   $conn = new mysqli($servername, $username, $password, $dbname);
   
