@@ -1,0 +1,20 @@
+/* ROOT PLAYER */
+:root {
+    --font-family-h1: 'VT323';
+    --font-family-h2: 'Chakra Petch';
+    --font-family-text: 'Chakra Petch';
+    --cursor-default: url(./img/cursor-retro.png);
+    --primary-color-h3:rgb(1, 255, 221);
+    --primary-border-h3:#FF2D95;
+    --primary-hover-effect:#FF2D95;
+    --primary-active-effect:#c21a6e;
+    --primary-green: mediumseagreen;
+    --primary-blue: dodgerblue;
+    --primary-orange: #ffd900;
+    --primary-success: dodgerblue;
+    --primary-error: rgb(100, 41, 41);
+    --primary-border-error:rgb(121, 10, 10);
+    --img-bg-landing:url(./img/retro-gaming.jpg);
+    --text-shadow:color: #FFFFFF;
+    --primary-text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}

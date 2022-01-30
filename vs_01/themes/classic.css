@@ -1,0 +1,19 @@
+/* ROOT CLASSIC */
+:root {
+    --font-family-h1: "Abril Fatface";
+    --font-family-h2: "Abril Fatface";
+    --font-family-text: "Comfortaa";
+    --cursor-default: "default";
+    --primary-color-h3:rgb(158, 158, 158);
+    --primary-border-h3:#252525;
+    --primary-hover-effect:dodgerblue;
+    --primary-active-effect:rgb(24, 81, 138);
+    --primary-green: mediumseagreen;
+    --primary-blue: dodgerblue;
+    --primary-orange: #ffee00;
+    --primary-success: dodgerblue;
+    --primary-error: rgb(100, 41, 41);
+    --primary-border-error:rgb(121, 10, 10);
+    --img-bg-landing:url(./img/road.jpg);
+    --primary-text-shadow: 2px 2px 0px #9c9a90, 5px 4px 0px rgba(0,0,0,0.15), 2px 2px 2px rgba(0,126,255,0);
+}
