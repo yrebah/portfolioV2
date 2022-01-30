@@ -28,7 +28,7 @@ function getLanguages(){
 
   $return_arr = array();
 
-  $query = "SELECT * FROM languages_x79";
+  $query = "SELECT * FROM ******";
 
   $result = mysqli_query(getConnection(),$query);
 
@@ -51,7 +51,7 @@ function getThemes(){
 
   $return_arr = array();
 
-  $query = "SELECT * FROM themes_x79";
+  $query = "SELECT * FROM *****";
 
   $result = mysqli_query(getConnection(),$query);
 
@@ -75,7 +75,7 @@ function setNewMessageToDB($creation, $mail, $subject, $message){
   getConnection();
 
   if($creation && $mail && $subject && $message){
-    $sql = "INSERT INTO message_x79 (creation, mail, subject, message) VALUES ('$creation', '$mail', '$subject', '$message')";
+    $sql = "INSERT INTO **** (creation, mail, subject, message) VALUES ('$creation', '$mail', '$subject', '$message')";
   }
   
   if (getConnection()->query($sql) === TRUE) {
