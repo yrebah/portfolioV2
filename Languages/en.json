@@ -1,0 +1,33 @@
+{
+    "metaDescription": "Free Web tutorials",
+    "metaKeywords": "HTML, CSS, JavaScript",
+    "metaAuthor": "Yoann Rebah",
+    "-1": "",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "fa-home": "<i class='fas fa-home'></i>",
+    "fa-login": "<i class='fas fa-user'></i>",
+    "fa-logo": "<i class='fas fa-ghost'></i>",
+    "fa-menu": "<i class='fas fa-bars'></i>",
+    "fa-search": "<i class='fas fa-search'></i>",
+    "back": "Back",
+    "cancel": "Cancel",
+    "connectRegister": "Connection / Register",
+    "darkMode": "Dark Mode",
+    "delete": "Delete",
+    "homePage": "Home page",
+    "language": "Language",
+    "loading": "Loading...",
+    "menu": "Menu",
+    "openMainMenu": "Open main menu",
+    "search": "Search",
+    "siteTitle": "Ghostube",
+    "switchLang": "Switch language",
+    "switchTheme": "Switch theme",
+    "validate": "Validate",
+
+
+    "thisIsTest": "This is test"
+}

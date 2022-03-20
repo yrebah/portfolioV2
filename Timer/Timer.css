@@ -1,0 +1,50 @@
+/*
+* Timer-dark.css
+*/
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation:container 0.75s forwards;
+}
+
+@keyframes container {
+    0%{
+        opacity:0;
+    }
+    70%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.round {
+    position: relative;
+    border-radius: 50%;
+    border: var(--timer-round-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    font-size: 22px;
+    color:var(--text-color-1);
+    font-family: "segoe ui";
+}
+
+.dot{
+    font-size: 20px;
+    color:var(--text-color-1);
+}

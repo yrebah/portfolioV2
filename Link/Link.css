@@ -1,0 +1,14 @@
+/*
+* Link.js
+*/
+
+.link{
+    text-decoration:none;
+    color:var(--link-color);
+    border-bottom:1px solid var(--link-color);
+    transition:0.20s ease-in-out;
+}
+
+.link:hover{
+    color:var(--link-hover-color);
+}

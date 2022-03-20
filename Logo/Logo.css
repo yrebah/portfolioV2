@@ -1,0 +1,22 @@
+/*
+* Logo.css
+*/
+
+.logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 28px;
+    margin-right: 12px;
+    color: var(--text-color-1);
+}
+
+.text {
+    font-family: var(--logo-font-family);
+    font-size: 16px;
+    color: var(--text-color-1);
+}

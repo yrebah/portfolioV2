@@ -1,0 +1,66 @@
+/*
+* Button.js
+*/
+
+.button {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.20s;
+}
+
+.button:hover {
+    filter: brightness(95%);
+}
+
+.button.validate {
+    border-radius: 4px;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 15px;
+    background: var(--btn-validate-bg);
+}
+
+.button.cancel {
+    border-radius: 4px;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 15px;
+    background: var(--btn-cancel-bg);
+}
+
+.button.back {
+    border-radius: 4px;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 15px;
+    background: var(--btn-back-bg);
+}
+
+.button.disabled {
+    border-radius: 4px;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 15px;
+    background: var(--btn-disabled-bg);
+}
+
+.button.icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.button.icon:hover {
+    background: var(--hover-bg);
+}
+
+.button.icon i {
+    color:var(--text-color-1);
+    font-size: 17px;
+}

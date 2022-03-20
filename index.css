@@ -1,0 +1,68 @@
+/*
+* index.css
+*/
+
+.header {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    height: var(--header-height);
+    background: var(--header-bg);
+}
+
+.header nav {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.header nav section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header nav section:nth-child(1) {
+    flex: 15%;
+    justify-content: center;
+}
+
+.header nav section:nth-child(2) {
+    flex: 50%;
+}
+
+.header nav section:nth-child(3) {
+    flex: 25%;
+}
+
+.header nav section:nth-child(4) {
+    flex: 10%;
+    justify-content: center;
+}
+
+.header nav section:nth-child(3) ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.main {
+    position: relative;
+    z-index: 0;
+    background: var(--main-bg);
+    height: calc(100vh - var(--header-height));
+    max-height: calc(100vh - var(--header-height));
+    overflow-y: auto;
+}
+
+.main .wrapper {
+    position: relative;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}

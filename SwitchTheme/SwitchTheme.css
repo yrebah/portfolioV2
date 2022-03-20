@@ -1,0 +1,71 @@
+/*
+* SwitchTheme-dark.css
+*/
+
+.container {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 8px;
+    transition: 0.15s ease-in-out;
+}
+
+.container:hover {
+    background: var(--hover-bg);
+}
+
+.text {
+    color: var(--text-color-1);
+    margin-right: 10px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    cursor: default;
+}
+
+.switch {
+    position: relative;
+    width: 60px;
+}
+
+.switch input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.switch label {
+    display: flex;
+    align-items: center;
+}
+
+.switch label::before {
+    position: relative;
+    content: "";
+    display: flex;
+    width: 60px;
+    height: 28px;
+    border-radius: 30px;
+    background: var(--switch-theme-bg);
+    border: var(--switch-theme-border);
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+}
+
+.switch label::after {
+    position: absolute;
+    content: "";
+    display: flex;
+    width: 20px;
+    height: 20px;
+    left: 8%;
+    border-radius: 50%;
+    background: var(--switch-btn-bg);
+    transform: scale(0.7);
+    cursor: pointer;
+    transition: 0.30s ease-in-out;
+}
+
+.switch input:checked+label::after {
+    background: var(--hover-color);
+    left: 59%;
+}

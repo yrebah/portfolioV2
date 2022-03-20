@@ -1,0 +1,18 @@
+html, body,
+h1, h2, h3, h4, h5, h6,
+div, span, p, label,
+ul, ol, li,
+input, textarea, select {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.display-none {
+    display: none;
+}

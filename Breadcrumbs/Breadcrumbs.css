@@ -1,0 +1,31 @@
+/*
+* Breadcrumbs.js
+*/
+
+.breadcrumbs {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.breadcrumbs-link {
+    font-family:var(--font-family);
+    text-decoration: none;
+    color:var(--text-color-1);
+    padding-right: 6px;
+    transition:0.15s ease-in-out;
+}
+
+.breadcrumbs-link:hover {
+    color: var(--hover-color);
+}
+
+.breadcrumbs a+a:before {
+    padding: 6px;
+    color:var(--text-color-1);
+    content: "/\00a0";
+}
+
+.breadcrumbs a:last-of-type {
+    color: var(--hover-color);
+}

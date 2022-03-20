@@ -1,0 +1,34 @@
+/*
+* Dark.css
+*/
+
+:root {
+    --font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --text-color-1: white;
+    --bg-color-1: black;
+    --bg-color-2: #1b1b1b;
+    --header-height: 80px;
+    --header-bg: #1b1b1b;
+    --main-bg: #111111;
+    --hover-bg: rgba(131, 131, 131, 0.15);
+    --hover-color: dodgerblue;
+    --btn-validate-bg: rgb(78, 214, 139);
+    --btn-cancel-bg: #212121;
+    --btn-back-bg: grey;
+    --btn-disabled-bg: lightgray;
+    --link-color: rgb(27, 141, 255);
+    --link-hover-color: dodgerblue;
+    --loader-bg: rgba(0, 0, 0, 0.8);
+    --loader-roller-bg: rgb(230, 230, 230);
+    --logo-font-family: 'M PLUS Rounded 1c', sans-serif;
+    --search-border: 1px solid #313131;
+    --search-border-focus: rgba(43, 142, 241, 0.75);
+    --search-bg: black;
+    --search-icon-color: rgb(170, 170, 170);
+    --search-list-bg: white;
+    --search-list-hover-bg: rgb(240, 240, 240);
+    --switch-theme-border: 1px solid black;
+    --switch-theme-bg: black;
+    --switch-btn-bg: dodgerblue;
+    --timer-round-border: 1px solid rgb(70, 70, 70);
+}
